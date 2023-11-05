@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0ea24f2ec2.js" crossorigin="anonymous"></script>
+    <title>Detalhes</title>
+</head>
+<body>
+    <header>
+        <div id="icone-menu"><i class="fa-solid fa-bars"></i></div>
+        <nav id="menu">
+            <a href="index.html">Página Inicial</a>
+            <a href="detalhes.html">Detalhes</a>
+            <a href="autor.html">Sobre o Autor</a>
+        </nav>
+        
+        <h1>CÁLCULO DO PRODUTO VETORIAL</h1>
+
+        <img src="logo.png" alt="Logo do Site">
+    </header>
+
+    <main>
+        <p>O produto vetorial, simbolizado por ×, é uma operação que, ao ser aplicada em dois vetores, gera um terceiro vetor que é perpendicular aos dois vetores iniciais.</p>
+        <p>Para calcular o produto vetorial entre dois vetores a e b em um espaço tridimensional, você pode seguir os seguintes passos:</p>
+        <ol>
+            <li>Representação dos Vetores: Suponha que os vetores sejam: <strong>a = (a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>) e b = (b<sub>1</sub>, b<sub>2</sub>, b<sub>3</sub>)</strong>.</li>
+            <li>
+                Configuração do Determinante: O produto vetorial <strong>a × b</strong> é encontrado calculando o determinante da seguinte matriz 3x3:
+                <table>
+                    <tr>
+                        <th>i</th>
+                        <th>j</th>
+                        <th>k</th>
+                    </tr>
+                    <tr>
+                        <td>a<sub>1</sub></td>
+                        <td>a<sub>2</sub></td>
+                        <td>a<sub>3</sub></td>
+                    </tr>
+                    <tr>
+                        <td>b<sub>1</sub></td>
+                        <td>b<sub>2</sub></td>
+                        <td>b<sub>3</sub></td>
+                    </tr>
+                </table>
+            </li>
+            <li>Cálculo do Determinante: O determinante da matriz acima é calculado da seguinte forma: <strong>i(a<sub>2</sub>b<sub>3</sub> - a<sub>3</sub>b<sub>2</sub>) - j(a<sub>1</sub>b<sub>3</sub> - a<sub>3</sub>b<sub>1</sub>) + k(a<sub>1</sub>b<sub>2</sub> - a<sub>2</sub>b<sub>1</sub>)</strong>.</li>
+        </ol>
+        <p>Aqui, <strong>i</strong>, <strong>j</strong>, e <strong>k</strong> são os vetores unitários nas direções x, y, e z, respectivamente.</p>
+        <p>O módulo do produto vetorial <strong>u × v</strong> é a área de um paralelogramo de lados <strong>u</strong> e <strong>v</strong>. O módulo do produto vetorial verifica a fórmula: <strong>||u × v|| = ||u|| ||v|| sen α</strong>, onde <strong>α</strong> é o ângulo entre os vetores <strong>u</strong> e <strong>v</strong>.</p>
+    </main>
+
+    <footer>
+        <p><strong>Criado por <a href="autor.html">Jeferson Almeida</a></strong></p>
+        <p><strong>Contatos do Autor</strong></p>
+        <a class="contato" href="https://www.facebook.com/jefersonba" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/240px-Facebook_logo_%28square%29.png" alt="Ícone do Facebook">
+        </a>
+        <a class="contato" href="https://www.instagram.com/jefersonbalmeida/" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/240px-Instagram_icon.png" alt="Ícone do Instagram">
+        </a>
+        <a class="contato" href="https://www.linkedin.com/in/jefersonbalmeida/" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/240px-LinkedIn_logo_initials.png" alt="Ícone do LinkedIn">
+        </a>
+    </footer>
+</body>
+</html>

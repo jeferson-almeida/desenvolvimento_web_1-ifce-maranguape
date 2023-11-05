@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0ea24f2ec2.js" crossorigin="anonymous"></script>
+    <title>Página Inicial</title>
+</head>
+<body>
+    <header>
+        <div id="icone-menu"><i class="fa-solid fa-bars"></i></div>
+        <nav id="menu">
+            <a href="index.html">Página Inicial</a>
+            <a href="detalhes.html">Detalhes</a>
+            <a href="autor.html">Sobre o Autor</a>
+        </nav>
+
+        <h1>PRODUTO VETORIAL</h1>
+
+        <img src="logo.png" alt="Logo do Site">
+    </header>
+
+    <main>
+        <p>Digite os valores dos vetores:</p>
+        <div>
+            <p class="label">Vetor 1</p>
+            <input type="number" id="a1" placeholder="0" oninput="limpar()">
+            <input type="number" id="a2" placeholder="0" oninput="limpar()">
+            <input type="number" id="a3" placeholder="0" oninput="limpar()">
+        </div>
+        <div>
+            <p class="label">Vetor 2</p>
+            <input type="number" id="b1" placeholder="0" oninput="limpar()">
+            <input type="number" id="b2" placeholder="0" oninput="limpar()">
+            <input type="number" id="b3" placeholder="0" oninput="limpar()">
+        </div>
+        <button>Calcular</button>
+        <p id="resultado"></p>
+    </main>
+
+    <footer>
+        <p><strong>Criado por <a href="autor.html">Jeferson Almeida</a></strong></p>
+        <p><strong>Contatos do Autor</strong></p>
+        <a class="contato" href="https://www.facebook.com/jefersonba" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/240px-Facebook_logo_%28square%29.png" alt="Ícone do Facebook">
+        </a>
+        <a class="contato" href="https://www.instagram.com/jefersonbalmeida/" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/240px-Instagram_icon.png" alt="Ícone do Instagram">
+        </a>
+        <a class="contato" href="https://www.linkedin.com/in/jefersonbalmeida/" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/240px-LinkedIn_logo_initials.png" alt="Ícone do LinkedIn">
+        </a>
+    </footer>
+</body>
+</html>
